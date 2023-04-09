@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/ActionList.css';
 import actions from '../data/questions.json';
+import FinalScore from './FinalScore';
 
 function ActionList() {
   const [completedActions, setCompletedActions] = useState([]);
+  const [score, setScore] = useState(0);
+  const [showFinalScore, setShowFinalScore] = useState(false);
 
   const toggleAction = (index) => {
     const actionIndex = completedActions.indexOf(index);
@@ -17,68 +20,45 @@ function ActionList() {
     }
   };
 
+  const calculateScore = () => {
+    return completedActions.length;
+  };
+
+  const handleGetScoreClick = () => {
+    const score = calculateScore();
+    setScore(score);
+    setShowFinalScore(true);
+  };
+
   return (
     <div className="action-list">
-      <h2>Actions</h2>
-      {actions.map((action, index) => (
-        <div
-          key={index}
-          className={`action ${completedActions.includes(index) ? 'completed' : ''}`}
-          onClick={() => toggleAction(index)}
-        >
-          {completedActions.includes(index) && <span className="checkmark">&#10003;</span>}
-          <span className="action-text">{action.name}</span>
-        </div>
-      ))}
-      <p>Number of completed actions: {completedActions.length}</p>
+      {!showFinalScore && (
+        <>
+          <div className="instructions">
+            <h1>Instructions</h1>
+            <p>Complete as many actions as you can to increase your score.</p>
+          </div>
+          <div className="action-container">
+            {actions.map((action, index) => (
+              <div
+                key={index}
+                className={`action ${completedActions.includes(action.id) ? 'completed' : ''}`}
+                onClick={() => toggleAction(action.id)}
+              >
+                {completedActions.includes(action.id) && <span className="checkmark">🍺</span>}
+                <span className="action-text">{action.name}</span>
+              </div>
+            ))}
+          </div>
+          <div className="score-container">
+            <button onClick={handleGetScoreClick}>Get Score</button>
+            {score !== 0 && <p>Your score: {score}</p>}
+          </div>
+        </>
+      )}
+      {showFinalScore && <FinalScore score={score} />}
     </div>
   );
 }
 
 export default ActionList;
-
-
-// import React, { useState } from 'react';
-// import '../styles/ActionList.css';
-// import actions from '../data/questions.json';
-
-// function ActionList() {
-//   const [actionList, setActionList] = useState(actions);
-
-//   const handleActionClick = (id) => {
-//     const updatedActionList = actionList.map((action) => {
-//       if (action.id === id) {
-//         return { ...action, completed: !action.completed };
-//       }
-//       return action;
-//     });
-//     setActionList(updatedActionList);
-//   };
-
-//   const completedActionsCount = actionList.filter(
-//     (action) => action.completed
-//   ).length;
-
-//   return (
-//     <div className="action-list-container">
-//       <h2>Action List</h2>
-//       <p>
-//         {completedActionsCount} of {actionList.length} actions completed
-//       </p>
-//       <ul className="action-list">
-//         {actionList.map((action) => (
-//           <li
-//             key={action.id}
-//             className={`action ${action.completed ? 'completed' : ''}`}
-//             onClick={() => handleActionClick(action.id)}
-//           >
-//             <span>{action.name}</span>
-//             {action.completed && <span className="checkmark">&#10003;</span>}
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default ActionList;

@@ -4,8 +4,11 @@ import '../styles/Header.css';
 function Header() {
   return (
     <div className="header-container">
-      <img src="/pub_logo.jpeg" alt="Pub logo" className="logo-image" />
-      <p>Welcome to the Pub!</p>
+      <div className="header-background" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pub_area.jpeg)` }} />
+      <div className="header-content">
+        <img src={process.env.PUBLIC_URL + '/pub_logo.jpeg'} alt="Pub logo" className="logo-image" />
+        <h1>Pub Purity Test</h1>
+      </div>
     </div>
   );
 }
