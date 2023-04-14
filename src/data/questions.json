@@ -78,5 +78,153 @@
     {
         "id": 20,
         "name": "Ordered only Four Lokos on Pub Night"
+    },
+    {
+        "id": 21,
+        "name": "Yelled at a bartender"
+    },
+    {
+        "id": 22,
+        "name": "Flirted with a bartender"
+    },
+    {
+        "id": 23,
+        "name": "Couldn't find the bathroom"
+    },
+    {
+        "id": 24,
+        "name": "Never missed a pub night"
+    },
+    {
+        "id": 25,
+        "name": "Got to Pub before 11pm"
+    },
+    {
+        "id": 26,
+        "name": "Went to Pub when you had an exam the next day"
+    },
+    {
+        "id": 27,
+        "name": "Disregarded homework for Pub"
+    },
+    {
+        "id": 28,
+        "name": "Ordered only Four Lokos on Pub Night"
+    },
+    {
+        "id": 29,
+        "name": "Smoke a cig in the stairwell"
+    },
+    {
+        "id": 30,
+        "name": "Done drugs inside of pub (coke, poppers, edibles, needles, Molly, etc)"
+    },
+    {
+        "id": 31,
+        "name": "Got drunk before a class"
+    },
+    {
+        "id": 32,
+        "name": "Flirted with a bartender"
+    },
+    {
+        "id": 33,
+        "name": "Had sex with a bartender on a pub night"
+    },
+    {
+        "id": 34,
+        "name": "Blacked out at pub"
+    },
+    {
+        "id": 35,
+        "name": "Been crossed at pub?"
+    },
+    {
+        "id": 36,
+        "name": "Been under the influence of something stronger than weed at pub"
+    },
+    {
+        "id": 37,
+        "name": "Hit a bartenders vape"
+    },
+    {
+        "id": 38,
+        "name": "Had a bartender serve you the wrong drink with a straight face🤨"
+    },
+    {
+        "id": 39,
+        "name": "Called the Nate miller fan club (number on rotating tv)"
+    },
+    {
+        "id": 40,
+        "name": "Made out with two or more different people in one pub night"
+    },
+    {
+        "id": 41,
+        "name": "Not remembered walking home from pub"
+    },
+    {
+        "id": 42,
+        "name": "Dropped a glass bottle (pls stop doing this)"
+    },
+    {
+        "id": 43,
+        "name": "Drank with a bartender in the back"
+    },
+    {
+        "id": 44,
+        "name": "Had somebody buy a drink for you"
+    },
+    {
+        "id": 45,
+        "name": "Bought a drink for somebody else"
+    },
+    {
+        "id": 46,
+        "name": "Dodged cover"
+    },
+    {
+        "id": 47,
+        "name": "Snuck in through the backdoor"
+    },
+    {
+        "id": 48,
+        "name": "Broken a beer bottle at pub"
+    },
+    {
+        "id": 49,
+        "name": "Fallen off the pub stage"
+    },
+    {
+        "id": 50,
+        "name": "Gotten fed pub mix to sober up"
+    },
+    {
+        "id": 51,
+        "name": "Tipped bartender excessively due to drunkness"
+    },
+    {
+        "id": 52,
+        "name": "Got denied when asking to hit someone else's vape"
+    },
+    {
+        "id": 53,
+        "name": "Flirted with someone with the hopes of hitting their vape"
+    },
+    {
+        "id": 54,
+        "name": "Smoked a cigarette at pub"
+    },
+    {
+        "id": 55,
+        "name": "Stolen a drink off a booth table or the bar"
+    },
+    {
+        "id": 56,
+        "name": "Stolen a drink off the backdoor drink table"
+    },
+    {
+        "id": 57,
+        "name": "Went behind the dj stand at pub"
     }
 ]

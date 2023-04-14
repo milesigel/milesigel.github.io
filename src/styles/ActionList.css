@@ -83,13 +83,18 @@ body {
 }
 
 .action:hover {
-  background-color: #eee;
-}
+  background-color: #f5deb3; 
+  border: 1px solid #8b4513;
+  box-shadow: 2px 2px #8b4513; 
+  text-decoration: underline; 
+  }
 
-.action.completed {
-  background-color: #ccc;
-}
-
+  .action.completed {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+  }
+  
+  
 .checkmark {
   margin-right: 10px;
   font-size: 20px;

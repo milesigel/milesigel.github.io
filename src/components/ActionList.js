@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/ActionList.css';
-import actions from '../data/questions.json';
+import actions from '../data/data.json';
 import FinalScore from './FinalScore';
 
 function ActionList() {
