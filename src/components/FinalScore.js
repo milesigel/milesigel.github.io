@@ -3,7 +3,7 @@ import '../styles/FinalScore.css';
 
 function FinalScore({ score }) {
   const handleShare = () => {
-    const url = `https://twitter.com/intent/tweet?text=I scored ${score} on the Action List!&hashtags=ActionList`;
+    const url = `https://twitter.com/intent/tweet?text=I scored ${score} on the Pub Purity Test!&hashtags=PubPurityTest`;
     window.open(url, '_blank');
   };
 

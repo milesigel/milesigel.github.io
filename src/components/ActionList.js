@@ -35,8 +35,10 @@ function ActionList() {
       {!showFinalScore && (
         <>
           <div className="instructions">
-            <h1>Instructions</h1>
-            <p>Complete as many actions as you can to increase your score.</p>
+            <p>The Pub Purity Test has historically served as a segue from not going out before highschool to true college life at Rice.</p>
+            <p>It's a voluntary opportunity for friend groups to bond, and for students to track the maturation of their experiences throughout college.</p>
+            <p>Caution: This is not a bucket list. Completion of all items on this test will likely result in hype.</p>
+            <p>Click on every item you have done. MPS stands for Member of the Preferred Sex.</p>
           </div>
           <div className="action-container">
             {actions.map((action, index) => (
@@ -46,7 +48,7 @@ function ActionList() {
                 onClick={() => toggleAction(action.id)}
               >
                 {completedActions.includes(action.id) && <span className="checkmark">🍺</span>}
-                <span className="action-text">{action.name}</span>
+                <span className="action-text"> {action.id}. {action.name}?</span>
               </div>
             ))}
           </div>

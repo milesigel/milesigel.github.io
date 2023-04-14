@@ -1,1 +1,82 @@
-[  {    "id": 1,    "name": "Attend a trivia night"  },  {    "id": 2,    "name": "Attend a pub night"  },  {    "id": 3,    "name": "Attend an afternoon happy hour"  },  {    "id": 4,    "name": "Have a drink before 4pm"  },  {    "id": 5,    "name": "Compliment someone in the bathroom due to drunkenness"  },  {    "id": 6,    "name": "Smoke in the back alley of a pub"  },  {    "id": 7,    "name": "Hook up with an MPS on the dance floor"  },  {    "id": 8,    "name": "Take an MPS home on a pub night"  },  {    "id": 9,    "name": "Puke on someone during a pub night"  },  {    "id": 10,    "name": "Puke somewhere that is not the toilet on a pub night"  },  {    "id": 11,    "name": "Get kicked out of a pub"  },  {    "id": 12,    "name": "Stay till you hear closing time"  }]
+[
+    {
+        "id": 1,
+        "name": "Attend a trivia night"
+    },
+    {
+        "id": 2,
+        "name": "Attend a pub night"
+    },
+    {
+        "id": 3,
+        "name": "Attend an afternoon happy hour"
+    },
+    {
+        "id": 4,
+        "name": "Have a drink before 4pm"
+    },
+    {
+        "id": 5,
+        "name": "Compliment someone in the bathroom due to drunkenness"
+    },
+    {
+        "id": 6,
+        "name": "Smoke in the back alley of a pub"
+    },
+    {
+        "id": 7,
+        "name": "Hook up with an MPS on the dance floor"
+    },
+    {
+        "id": 8,
+        "name": "Take an MPS home on a pub night"
+    },
+    {
+        "id": 9,
+        "name": "Puke on someone during a pub night"
+    },
+    {
+        "id": 10,
+        "name": "Puke somewhere that is not the toilet on a pub night"
+    },
+    {
+        "id": 11,
+        "name": "Get kicked out of a pub"
+    },
+    {
+        "id": 12,
+        "name": "Stay till you hear closing time"
+    },
+    {
+        "id": 13,
+        "name": "Yelled at a bartender"
+    },
+    {
+        "id": 14,
+        "name": "Flirted with a bartender"
+    },
+    {
+        "id": 15,
+        "name": "Couldn't find the bathroom"
+    },
+    {
+        "id": 16,
+        "name": "Never missed a pub night"
+    },
+    {
+        "id": 17,
+        "name": "Got to Pub before 11pm"
+    },
+    {
+        "id": 18,
+        "name": "Went to Pub when you had an exam the next day"
+    },
+    {
+        "id": 19,
+        "name": "Disregarded homework for Pub"
+    },
+    {
+        "id": 20,
+        "name": "Ordered only Four Lokos on Pub Night"
+    }
+]
